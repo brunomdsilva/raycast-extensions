@@ -1,6 +1,6 @@
 # Project Manager Changelog
 
-## [Initial Version] - 2025-01-29
+## [Initial Version] - {PR_MERGE_DATE}
 
 - Manage project paths with wildcard support (`~/Developer/*` for subfolders, `~/Developer/my-app` for single projects)
 - List, search and open projects in editor, terminal, or both
