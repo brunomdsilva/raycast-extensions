@@ -1,5 +1,3 @@
-import { Application } from "@raycast/api";
-
 export interface Project {
   name: string;
   path: string;
@@ -12,9 +10,4 @@ export interface ProjectMeta {
   pinned: boolean;
   manualOrder?: number;
   lastOpenedAt?: number;
-}
-
-export interface Preferences {
-  mainEditor?: Application;
-  mainTerminal?: Application;
 }

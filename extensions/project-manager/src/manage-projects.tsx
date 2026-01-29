@@ -27,7 +27,7 @@ import {
 } from "./helpers/storage";
 import ManagePaths from "./manage-paths";
 import { SORT_MODES } from "./utils/consts";
-import { Preferences, Project, ProjectMeta, SortMode } from "./utils/types";
+import { Project, ProjectMeta, SortMode } from "./utils/types";
 
 export default function ManageProjects() {
   const preferences = getPreferenceValues<Preferences>();
